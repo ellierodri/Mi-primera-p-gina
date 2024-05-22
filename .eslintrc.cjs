@@ -1,0 +1,23 @@
+module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:react-hooks/recommended"],
+  ignorePatterns: ["dist", ".eslintrc.cjs"],
+  parserOptions: { ecmaVersion: "latest", sourceType: "module" },
+  settings: { react: { version: "18.2" } },
+  plugins: ["react-refresh"],
+  rules: {
+    "comma-dangle": ["warn", "only-multiline"],
+    "eol-last": ["warn", "always"],
+    indent: ["warn", 2, { offsetTernaryExpressions: true, SwitchCase: 1 }],
+    "no-control-regex": "off",
+    "no-console": ["warn", { allow: ["warn", "error"] }],
+    "no-unused-vars": "warn",
+    quotes: ["warn", "double"],
+    "react/display-name": "off",
+    "react/prop-types": "off",
+    semi: ["warn", "always"],
+    "testing-library/await-async-events": ["off", { ignoreMethods: ["userEvent.setup"] }],
+    "testing-library/no-node-access": "off",
+  },
+};
