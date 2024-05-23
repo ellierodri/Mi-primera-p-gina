@@ -16,10 +16,10 @@ const NavBar = () => {
           <a href="https://pbs.twimg.com/media/AaSDyiWCAAEKsMZ?format=jpg&name=medium" target="_blank" rel="noreferrer">
             Customers
           </a>
-          <a href="https://pbs.twimg.com/media/GMrYa9XXoAA8WvV?format=jpg&name=medium" target="_blank" rel="noreferrer">
+          <a href="https://pbs.twimg.com/media/GOPSxBBWUAA47JO?format=jpg&name=900x900" target="_blank" rel="noreferrer">
             Pricing
           </a>
-          <a href="https://pbs.twimg.com/media/GHcB3PDW0AADl3U?format=jpg&name=large" target="_blank" rel="noreferrer">
+          <a href="https://pbs.twimg.com/media/GMH93WnW8AA1aMI?format=jpg&name=small" target="_blank" rel="noreferrer">
             Enterprise
           </a>
           <a href="https://pbs.twimg.com/media/A-neTC4CEAADznL?format=jpg&name=large" target="_blank" rel="noreferrer">
